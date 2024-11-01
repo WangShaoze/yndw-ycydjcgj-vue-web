@@ -1,0 +1,48 @@
+{
+  "name": "yndw",
+  "version": "3.8.2",
+  "description": "烟草局用电情况检测小工具",
+  "author": "yndw",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build:prod": "vite build",
+    "build:stage": "vite build --mode staging",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "1.1.4",
+    "@vueuse/core": "^8.7.4",
+    "@vueuse/shared": "^8.7.4",
+    "axios": "0.26.1",
+    "default-passive-events": "^2.0.0",
+    "echarts": "5.3.2",
+    "element-plus": "2.1.8",
+    "file-saver": "2.0.5",
+    "fuse.js": "6.5.3",
+    "js-cookie": "3.0.1",
+    "jsencrypt": "3.2.1",
+    "md-editor-v3": "^2.2.1",
+    "nprogress": "0.2.0",
+    "vue": "3.2.31",
+    "vue-cropper": "1.0.3",
+    "vue-demi": "^0.13.1",
+    "vue-router": "4.0.14",
+    "vue-uuid": "^3.0.0",
+    "vue3-carousel": "^0.1.40",
+    "vue3-json-viewer": "^2.2.2",
+    "vue3-video-play": "^1.3.1-beta.6",
+    "vuex": "4.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "2.3.1",
+    "@vue/compiler-sfc": "3.2.31",
+    "sass": "1.50.0",
+    "unplugin-auto-import": "0.6.9",
+    "vite": "2.6.14",
+    "vite-plugin-compression": "0.5.1",
+    "vite-plugin-svg-icons": "1.0.5",
+    "vite-plugin-vue-setup-extend": "0.4.0"
+  }
+}
