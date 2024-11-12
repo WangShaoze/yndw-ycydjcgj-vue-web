@@ -234,6 +234,7 @@ const initTree = async () => {
   gwxx.value = gwRes.data;
 };
 initTree();
+
 //点击节点对应表格刷新
 const handleNodeClick = async (treeNode) => {
   if (treeNode) {

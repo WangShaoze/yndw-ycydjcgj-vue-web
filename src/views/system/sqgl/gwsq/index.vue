@@ -362,6 +362,7 @@ const handleCurrentChange = (pagenum) => {
   height: 30px;
   margin-left: 20px;
 }
+
 .btn-seach {
   background-color: #366cb3;
   color: #ffffff;
