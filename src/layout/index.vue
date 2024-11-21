@@ -77,7 +77,7 @@ function setLayout() {
 }
 
 .drawer-bg {
-  background: #000;
+  background: #230f0f;
   opacity: 0.3;
   width: 100%;
   top: 0;
@@ -96,7 +96,7 @@ function setLayout() {
 }
 
 .hideSidebar .fixed-header {
-  width: calc(100% - 54px);
+  width: calc(100% - 20px);
 }
 
 .sidebarHide .fixed-header {
