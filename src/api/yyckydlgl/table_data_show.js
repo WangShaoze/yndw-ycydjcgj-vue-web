@@ -5,7 +5,7 @@ import request from '@/utils/request'
 const search = (data) => {
     console.log(data)
     return request({
-        url: '/yndw/xtgl/auth/yndw-ycydjcgj-xtgl-auth-service/V1/ycckyhgl/searchYYCKUser',
+        url: '/yndw/xtgl/htgl/yndw-ycydjcgj-xtgl-htgl-service/V1/ycckyhgl/searchYYCKUser',
         method: 'post',
         data: data
     })
@@ -33,7 +33,7 @@ export const searchDataByZhongJu = (data) => {
 export const searchDataByLike = (data) => {
     console.log("searchDataByLike")
     return request({
-        url: '/yndw/xtgl/auth/yndw-ycydjcgj-xtgl-auth-service/V1/ycckyhgl/searchYYCKUserLike',
+        url: '/yndw/xtgl/htgl/yndw-ycydjcgj-xtgl-htgl-service/V1/ycckyhgl/searchYYCKUserLike',
         method: 'post',
         data: data
     })
@@ -44,7 +44,7 @@ export const addNewUser = (data) => {
     console.log("addNewUser")
     console.log(data)
     return request({
-        url: '/yndw/xtgl/auth/yndw-ycydjcgj-xtgl-auth-service/V1/ycckyhgl/saveOrUpdateYYCKUser',
+        url: '/yndw/xtgl/htgl/yndw-ycydjcgj-xtgl-htgl-service/V1/ycckyhgl/saveOrUpdateYYCKUser',
         method: 'post',
         data: data
     })
@@ -55,7 +55,7 @@ export const updateUserInfo = (data) => {
     console.log("updateUserInfo")
     console.log(data)
     return request({
-        url: '/yndw/xtgl/auth/yndw-ycydjcgj-xtgl-auth-service/V1/ycckyhgl/saveOrUpdateYYCKUser',
+        url: '/yndw/xtgl/htgl/yndw-ycydjcgj-xtgl-htgl-service/V1/ycckyhgl/saveOrUpdateYYCKUser',
         method: 'post',
         data: data
     })
@@ -66,7 +66,7 @@ export const delUser = (data) => {
     console.log("delUser")
     console.log(data)
     return request({
-        url: '/yndw/xtgl/auth/yndw-ycydjcgj-xtgl-auth-service/V1/ycckyhgl/deleteYYCKUser',
+        url: '/yndw/xtgl/htgl/yndw-ycydjcgj-xtgl-htgl-service/V1/ycckyhgl/deleteYYCKUser',
         method: 'post',
         data: data
     })
